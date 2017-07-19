@@ -1,0 +1,321 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{7A11E153-D129-45B5-B861-169BD691BECE}</ProjectGuid>
+			<ProjectVersion>13.4</ProjectVersion>
+			<FrameworkType>VCL</FrameworkType>
+			<MainSource>w_nfe.dpr</MainSource>
+			<Base>True</Base>
+			<Config Condition="'$(Config)'==''">Debug</Config>
+			<Platform Condition="'$(Platform)'==''">Win32</Platform>
+			<TargetedPlatforms>1</TargetedPlatforms>
+			<AppType>Application</AppType>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win64' and '$(Base)'=='true') or '$(Base_Win64)'!=''">
+			<Base_Win64>true</Base_Win64>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+			<Base_Win32>true</Base_Win32>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+			<Cfg_1_Win32>true</Cfg_1_Win32>
+			<CfgParent>Cfg_1</CfgParent>
+			<Cfg_1>true</Cfg_1>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_UsePackage>bindcompfmx;fmx;rtl;dbrtl;IndySystem;DbxClientDriver;bindcomp;inetdb;DBXInterBaseDriver;DataSnapCommon;DataSnapClient;DataSnapServer;DataSnapProviderClient;xmlrtl;DbxCommonDriver;IndyProtocols;DBXMySQLDriver;dbxcds;bindengine;soaprtl;DBXOracleDriver;CustomIPTransport;dsnap;DBXInformixDriver;fmxase;IndyCore;DBXFirebirdDriver;inet;fmxobj;inetdbxpress;DBXSybaseASADriver;fmxdae;IPIndyImpl;dbexpress;DataSnapIndy10ServerTransport;$(DCC_UsePackage)</DCC_UsePackage>
+			<Icon_MainIcon>$(BDS)\bin\delphi_PROJECTICON.ico</Icon_MainIcon>
+			<DCC_Namespace>System;Xml;Data;Datasnap;Web;Soap;Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;$(DCC_Namespace)</DCC_Namespace>
+			<DCC_DcuOutput>.\$(Platform)\$(Config)</DCC_DcuOutput>
+			<DCC_ExeOutput>.\$(Platform)\$(Config)</DCC_ExeOutput>
+			<DCC_E>false</DCC_E>
+			<DCC_N>false</DCC_N>
+			<DCC_S>false</DCC_S>
+			<DCC_F>false</DCC_F>
+			<DCC_K>false</DCC_K>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base_Win64)'!=''">
+			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+			<DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
+			<VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+			<VerInfo_Locale>1033</VerInfo_Locale>
+			<Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+			<DCC_UsePackage>DBXOdbcDriver;DBXSybaseASEDriver;vclimg;vclactnband;vcldb;vcldsnap;bindcompvcl;vclie;vcltouch;DBXDb2Driver;websnap;VclSmp;vcl;DBXMSSQLDriver;dsnapcon;vclx;webdsnap;$(DCC_UsePackage)</DCC_UsePackage>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base_Win32)'!=''">
+			<DCC_UsePackage>madBasic_;vcldbx;frx16;TeeDB;nfdNFE_D2010;Hcicom_XE2;Rave100VCL;vclib;Tee;inetdbbde;DBXOdbcDriver;madDisAsm_;svnui;ibxpress;DBXSybaseASEDriver;vclimg;fmi;intrawebdb_120_160;frxDB16;fs16;TeeUI;FMXTee;vclactnband;vcldb;vcldsnap;bindcompvcl;vclie;madExcept_;vcltouch;Intraweb_120_160;DBXDb2Driver;websnap;vclribbon;VclSmp;fsDB16;frxe16;vcl;DataSnapConnectors;CloudService;DBXMSSQLDriver;CodeSiteExpressPkg;FmxTeeUI;dsnapcon;vclx;webdsnap;svn;bdertl;adortl;$(DCC_UsePackage)</DCC_UsePackage>
+			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+			<DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;Bde;$(DCC_Namespace)</DCC_Namespace>
+			<VerInfo_Locale>1033</VerInfo_Locale>
+			<Manifest_File>$(BDS)\bin\default_app.manifest</Manifest_File>
+			<VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=1.0.0.0;Comments=</VerInfo_Keys>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1)'!=''">
+			<DCC_Define>DEBUG;$(DCC_Define)</DCC_Define>
+			<DCC_Optimize>false</DCC_Optimize>
+			<DCC_GenerateStackFrames>true</DCC_GenerateStackFrames>
+			<DCC_DebugInfoInExe>true</DCC_DebugInfoInExe>
+			<DCC_RemoteDebug>true</DCC_RemoteDebug>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+			<DCC_DcuOutput>C:\Work\w_nfe_monitor\Win32\Debug\lixo</DCC_DcuOutput>
+			<VerInfo_Build>16</VerInfo_Build>
+			<VerInfo_MinorVer>1</VerInfo_MinorVer>
+			<VerInfo_Keys>CompanyName=HCI Sistema Integrados;FileDescription=V. 2.0.4 Beta;FileVersion=1.1.7.16;InternalName=w_nfe;LegalCopyright=HCI Sistema Integrados;LegalTrademarks=HCI Sistema Integrados;OriginalFilename=w_nfe_monitor;ProductName=W_nfe;ProductVersion=2.0.4;Comments=Beta</VerInfo_Keys>
+			<VerInfo_Release>7</VerInfo_Release>
+			<Icon_MainIcon>w_nfe_Icon1.ico</Icon_MainIcon>
+			<DCC_MapFile>3</DCC_MapFile>
+			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+			<VerInfo_Locale>1046</VerInfo_Locale>
+			<DCC_RemoteDebug>false</DCC_RemoteDebug>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2)'!=''">
+			<DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
+			<DCC_Define>RELEASE;$(DCC_Define)</DCC_Define>
+			<DCC_SymbolReferenceInfo>0</DCC_SymbolReferenceInfo>
+			<DCC_DebugInformation>false</DCC_DebugInformation>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="$(MainSource)">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<DCCReference Include="uPrincipal.pas">
+				<Form>frmPrincipal</Form>
+				<FormType>dfm</FormType>
+			</DCCReference>
+			<DCCReference Include="uDm_nfe.pas">
+				<Form>dm_nfe</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uFrmEmitente.pas">
+				<Form>frmEmitente</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TFrame</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uDm_Princial.pas">
+				<Form>dm_Princial</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uDM_Emitente.pas">
+				<Form>dm_Emitente</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uNfe_Utils.pas"/>
+			<DCCReference Include="uFuncoes.pas"/>
+			<DCCReference Include="uGlobalVar.pas"/>
+			<DCCReference Include="uConfiguracao.pas">
+				<Form>frmConfiguracao</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TFrame</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uSelectCertificate.pas">
+				<Form>frmSelectCertificate</Form>
+			</DCCReference>
+			<DCCReference Include="uSelecPrinter.pas">
+				<Form>frmSelectPrinter</Form>
+				<FormType>dfm</FormType>
+			</DCCReference>
+			<DCCReference Include="udm_Geral.pas">
+				<Form>dmGeral</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uEventos.pas">
+				<Form>frmEventos</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TFrame</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uPesquisa.pas">
+				<Form>frmPesquisa</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TFrame</DesignClass>
+			</DCCReference>
+			<DCCReference Include="untTSendMail.pas"/>
+			<DCCReference Include="uCancela.pas">
+				<Form>frmCancelaNfe</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TFrame</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uCCE.pas">
+				<Form>frmCCE</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TFrame</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uEmail.pas">
+				<Form>frmEmail</Form>
+				<FormType>dfm</FormType>
+			</DCCReference>
+			<DCCReference Include="uWaint.pas">
+				<Form>frmWaint</Form>
+			</DCCReference>
+			<DCCReference Include="nfeNFDXML.pas"/>
+			<DCCReference Include="uDanfeUtils.pas"/>
+			<DCCReference Include="uDM_Danfe.pas">
+				<Form>DM_Danfe</Form>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uFuncoesNFe.pas"/>
+			<DCCReference Include="DanfeRB.pas"/>
+			<DCCReference Include="uInutiliza.pas">
+				<Form>frmeInutiliza</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TFrame</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uFrmeRel.pas">
+				<Form>frmeConsultas</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TFrame</DesignClass>
+			</DCCReference>
+			<DCCReference Include="uDmRel.pas">
+				<Form>dmRel</Form>
+				<FormType>dfm</FormType>
+				<DesignClass>TDataModule</DesignClass>
+			</DCCReference>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">1046</VersionInfo>
+						<VersionInfo Name="CodePage">1252</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">1.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Source>
+						<Source Name="MainSource">w_nfe.dpr</Source>
+					</Source>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\bdertl160.bpl">Embarcadero BDE Database Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\fmxobj162.bpl">Embarcadero FMX OBJ Import Library</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\fmxdae162.bpl">Embarcadero FMX DAE Import Library</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\fmxase162.bpl">Embarcadero FMX ASE Import Library</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\VclSmp160.bpl">Embarcadero Sample Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\svnui160.bpl">User interface code for subversion integration</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\svn160.bpl">Subversion integration</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\FMXTeeUI9160.bpl">TeeChart FMX User Interface</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\FMXTee9160.bpl">TeeChart for FireMonkey</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\TeeUI9160.bpl">TeeChart User Interface Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\TeeDB9160.bpl">TeeChart Database Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\Tee9160.bpl">TeeChart Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\bindengine160.bpl">Embarcadero LiveBindings Runtime Package</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\bindcomp160.bpl">Embarcadero LiveBindings Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\bindcompfmx162.bpl">Embarcadero LiveBindings Components Firemonkey</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\bindcompvcl160.bpl">Embarcadero LiveBindings Components VCL</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\vcldb160.bpl">Embarcadero Database Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\vcltouch160.bpl">Embarcadero Touch VCL Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dsnapcon160.bpl">Embarcadero DataSnap Connection Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\vcldsnap160.bpl">Embarcadero Vcl DataSnap Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\vclib160.bpl">Embarcadero InterBase Express VCL Controls</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\ibxpress160.bpl">Embarcadero InterBase Express Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\adortl160.bpl">Embarcadero ADO Database Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\IndyCore160.bpl">Indy 10 Core</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\IndySystem160.bpl">Indy 10 System</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\IndyProtocols160.bpl">Indy 10 Protocols</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\intrawebdb_120_160.bpl">IntraWeb 12.0 Runtime DB Package for RAD Studio XE2</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\Intraweb_120_160.bpl">IntraWeb 12.0 Runtime Package for RAD Studio XE2</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\inetdbbde160.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\inetdbxpress160.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\vclribbon160.bpl">Embarcadero Ribbon Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DBXMySQLDriver160.bpl">Embarcadero MySQL Client</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DBXInterBaseDriver160.bpl">Embarcadero InterBase Client</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\IPIndyImpl160.bpl">Embarcadero IP Indy Implementation</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dbxcds160.bpl">Embarcadero SimpleDataSet Component (DBX)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\CloudService160.bpl">Embarcadero Cloud Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DBXOdbcDriver160.bpl">Embarcadero ODBC Client</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DBXFirebirdDriver160.bpl">Embarcadero Firebird Client</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DBXSybaseASEDriver160.bpl">Embarcadero SybaseASE Client</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DBXSybaseASADriver160.bpl">Embarcadero SybaseASA Client</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DBXOracleDriver160.bpl">Embarcadero Oracle Client</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DBXMSSQLDriver160.bpl">Embarcadero MSSQL Client</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DBXInformixDriver160.bpl">Embarcadero Informix Client</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DBXDb2Driver160.bpl">Embarcadero Db2 Client</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DataSnapIndy10ServerTransport160.bpl">Embarcadero DataSnap Server Transport Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DataSnapProviderClient160.bpl">Embarcadero DBExpress DataSnap Provider Client Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\DataSnapConnectors160.bpl">Embarcadero DataSnap Connector Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\fs16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\fsDB16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\fsBDE16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\fsADO16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\fsTee16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\frxDB16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\frx16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\frxe16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\fsIBX16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\frxBDE16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\frxADO16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\frxIBX16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\frxDBX16.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\vcldbx160.bpl">Embarcadero Compatibility Database Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\fqb160.bpl">FastQueryBuilder 1.03</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\office2K160.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dcloffice2k160.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dclofficexp160.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\officeXPrt160.bpl">(untitled)</Excluded_Packages>
+						<Excluded_Packages Name="C:\Program Files (x86)\FastReports\FastReport 4\LibD16\dclfrxcs16.bpl">FastReport 4.0 Client/Server Components</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+				<Deployment/>
+				<Platforms>
+					<Platform value="Win64">False</Platform>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+	</Project>

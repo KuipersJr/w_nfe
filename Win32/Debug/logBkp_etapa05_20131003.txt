@@ -1,0 +1,738 @@
+gbak:readied database C:\db_empr_nfe\popkrok\WHCI_NFE.FDB for backup
+gbak:creating file \WHCI_NFE.FDB_201310031555.FBK
+gbak:starting transaction
+gbak:database C:\db_empr_nfe\popkrok\WHCI_NFE.FDB has a page size of 4096 bytes.
+gbak:writing domains
+gbak:    writing domain RDB$304
+gbak:    writing domain RDB$305
+gbak:    writing domain RDB$306
+gbak:    writing domain RDB$307
+gbak:    writing domain RDB$308
+gbak:    writing domain RDB$309
+gbak:    writing domain RDB$310
+gbak:    writing domain RDB$311
+gbak:    writing domain RDB$312
+gbak:    writing domain RDB$465
+gbak:    writing domain RDB$435
+gbak:    writing domain RDB$315
+gbak:    writing domain RDB$316
+gbak:    writing domain RDB$436
+gbak:    writing domain RDB$437
+gbak:    writing domain RDB$438
+gbak:    writing domain RDB$320
+gbak:    writing domain RDB$321
+gbak:    writing domain RDB$322
+gbak:    writing domain RDB$323
+gbak:    writing domain RDB$324
+gbak:    writing domain RDB$325
+gbak:    writing domain RDB$326
+gbak:    writing domain RDB$327
+gbak:    writing domain RDB$328
+gbak:    writing domain RDB$329
+gbak:    writing domain RDB$430
+gbak:    writing domain RDB$461
+gbak:    writing domain RDB$462
+gbak:    writing domain RDB$463
+gbak:    writing domain RDB$464
+gbak:    writing domain RDB$466
+gbak:    writing domain RDB$467
+gbak:    writing domain RDB$468
+gbak:    writing domain RDB$469
+gbak:    writing domain RDB$550
+gbak:    writing domain RDB$551
+gbak:    writing domain RDB$552
+gbak:    writing domain RDB$450
+gbak:    writing domain RDB$451
+gbak:    writing domain RDB$452
+gbak:    writing domain RDB$453
+gbak:    writing domain RDB$454
+gbak:    writing domain RDB$455
+gbak:    writing domain RDB$410
+gbak:    writing domain RDB$411
+gbak:    writing domain RDB$412
+gbak:    writing domain RDB$413
+gbak:    writing domain RDB$456
+gbak:    writing domain RDB$457
+gbak:    writing domain RDB$361
+gbak:    writing domain RDB$362
+gbak:    writing domain RDB$363
+gbak:    writing domain RDB$364
+gbak:    writing domain RDB$365
+gbak:    writing domain RDB$366
+gbak:    writing domain RDB$367
+gbak:    writing domain RDB$368
+gbak:    writing domain RDB$369
+gbak:    writing domain RDB$370
+gbak:    writing domain RDB$371
+gbak:    writing domain RDB$372
+gbak:    writing domain RDB$373
+gbak:    writing domain RDB$374
+gbak:    writing domain RDB$375
+gbak:    writing domain RDB$376
+gbak:    writing domain RDB$377
+gbak:    writing domain RDB$378
+gbak:    writing domain RDB$379
+gbak:    writing domain RDB$380
+gbak:    writing domain RDB$381
+gbak:    writing domain RDB$382
+gbak:    writing domain RDB$396
+gbak:    writing domain RDB$397
+gbak:    writing domain RDB$398
+gbak:    writing domain RDB$387
+gbak:    writing domain RDB$388
+gbak:    writing domain RDB$389
+gbak:    writing domain RDB$458
+gbak:    writing domain RDB$414
+gbak:    writing domain RDB$415
+gbak:    writing domain RDB$416
+gbak:    writing domain RDB$399
+gbak:    writing domain RDB$417
+gbak:    writing domain RDB$418
+gbak:    writing domain RDB$419
+gbak:    writing domain RDB$420
+gbak:    writing domain RDB$401
+gbak:    writing domain RDB$402
+gbak:    writing domain RDB$403
+gbak:    writing domain RDB$404
+gbak:    writing domain RDB$405
+gbak:    writing domain RDB$406
+gbak:    writing domain RDB$407
+gbak:    writing domain RDB$408
+gbak:    writing domain RDB$543
+gbak:    writing domain RDB$421
+gbak:    writing domain RDB$422
+gbak:    writing domain RDB$423
+gbak:    writing domain RDB$424
+gbak:    writing domain RDB$425
+gbak:    writing domain RDB$426
+gbak:    writing domain RDB$427
+gbak:    writing domain RDB$459
+gbak:    writing domain RDB$460
+gbak:    writing domain RDB$540
+gbak:    writing domain RDB$541
+gbak:    writing domain RDB$542
+gbak:    writing domain RDB$544
+gbak:    writing domain RDB$545
+gbak:    writing domain RDB$546
+gbak:    writing domain RDB$547
+gbak:    writing domain RDB$553
+gbak:    writing domain RDB$554
+gbak:    writing domain RDB$555
+gbak:    writing domain RDB$556
+gbak:    writing domain RDB$557
+gbak:    writing domain RDB$558
+gbak:    writing domain RDB$559
+gbak:    writing domain RDB$560
+gbak:    writing domain RDB$561
+gbak:    writing domain RDB$562
+gbak:    writing domain RDB$563
+gbak:    writing domain RDB$564
+gbak:    writing domain RDB$565
+gbak:    writing domain RDB$566
+gbak:    writing domain RDB$567
+gbak:    writing domain RDB$568
+gbak:    writing domain RDB$569
+gbak:    writing domain RDB$623
+gbak:    writing domain RDB$624
+gbak:    writing domain RDB$625
+gbak:    writing domain RDB$626
+gbak:    writing domain RDB$627
+gbak:    writing domain RDB$575
+gbak:    writing domain RDB$576
+gbak:    writing domain RDB$604
+gbak:    writing domain RDB$605
+gbak:    writing domain RDB$606
+gbak:    writing domain RDB$607
+gbak:    writing domain RDB$608
+gbak:    writing domain RDB$609
+gbak:    writing domain RDB$628
+gbak:    writing domain RDB$629
+gbak:    writing domain RDB$602
+gbak:    writing domain RDB$678
+gbak:    writing domain RDB$679
+gbak:    writing domain RDB$603
+gbak:    writing domain RDB$680
+gbak:    writing domain RDB$681
+gbak:    writing domain RDB$682
+gbak:    writing domain RDB$683
+gbak:    writing domain RDB$684
+gbak:    writing domain RDB$685
+gbak:    writing domain RDB$686
+gbak:    writing domain RDB$687
+gbak:    writing domain RDB$688
+gbak:    writing domain RDB$689
+gbak:    writing domain RDB$690
+gbak:    writing domain RDB$691
+gbak:    writing domain RDB$692
+gbak:    writing domain RDB$693
+gbak:    writing domain RDB$694
+gbak:    writing domain RDB$695
+gbak:    writing domain RDB$696
+gbak:    writing domain RDB$697
+gbak:    writing domain RDB$698
+gbak:    writing domain RDB$699
+gbak:    writing domain RDB$700
+gbak:    writing domain RDB$701
+gbak:    writing domain RDB$702
+gbak:    writing domain RDB$703
+gbak:    writing domain RDB$704
+gbak:    writing domain RDB$705
+gbak:    writing domain RDB$706
+gbak:    writing domain RDB$707
+gbak:    writing domain RDB$708
+gbak:    writing domain RDB$709
+gbak:    writing domain RDB$710
+gbak:    writing domain RDB$711
+gbak:    writing domain RDB$712
+gbak:    writing domain RDB$713
+gbak:    writing domain RDB$714
+gbak:    writing domain RDB$715
+gbak:    writing domain RDB$716
+gbak:    writing domain RDB$717
+gbak:    writing domain RDB$718
+gbak:    writing domain RDB$719
+gbak:    writing domain RDB$720
+gbak:    writing domain RDB$721
+gbak:    writing domain RDB$722
+gbak:    writing domain RDB$723
+gbak:    writing domain RDB$724
+gbak:    writing domain RDB$725
+gbak:    writing domain RDB$726
+gbak:    writing domain RDB$727
+gbak:    writing domain RDB$728
+gbak:    writing domain RDB$729
+gbak:    writing domain RDB$730
+gbak:    writing domain RDB$731
+gbak:    writing domain RDB$732
+gbak:    writing domain RDB$733
+gbak:    writing domain RDB$734
+gbak:    writing domain RDB$735
+gbak:    writing domain RDB$736
+gbak:writing shadow files
+gbak:writing character sets
+gbak:writing collations
+gbak:writing functions
+gbak:writing tables
+gbak:    writing table TB_NFE_CONF
+gbak:         writing column IMG_LOGO
+gbak:         writing column ID_NFE_CONF
+gbak:         writing column PROXY
+gbak:         writing column PROXY_SENHA
+gbak:         writing column PROXY_USER
+gbak:         writing column IMP_PADRAO
+gbak:         writing column DIR_EXPORTACAO
+gbak:         writing column DIR_LOG
+gbak:         writing column QTDE_IMP
+gbak:         writing column DIR_TXTNFE
+gbak:         writing column FLG_ARQ_LOG
+gbak:         writing column NOME_CERTIFICADO
+gbak:         writing column TIPO_CERTIFICADO
+gbak:         writing column FLG_VALIDA
+gbak:         writing column FLG_TP_IMP
+gbak:         writing column FLG_IMPRIME
+gbak:         writing column FLG_AMBIENTE
+gbak:         writing column FLG_MODOIMP
+gbak:         writing column FLG_MONITORA
+gbak:         writing column FLG_SIMPLESN
+gbak:         writing column FLG_TRAYICON
+gbak:    writing table TB_NFE_EMITENTE
+gbak:         writing column CNPJ
+gbak:         writing column IE
+gbak:         writing column IE_ST
+gbak:         writing column ID_EMITENTE
+gbak:         writing column NOME_RZ
+gbak:         writing column FANTASIA
+gbak:         writing column CRT
+gbak:         writing column COD_UF
+gbak:         writing column CNAE
+gbak:         writing column IM
+gbak:         writing column FLG_AUTORIZADO
+gbak:    writing table TB_NFE_INUT
+gbak:         writing column XML_RET
+gbak:         writing column CNPJ
+gbak:         writing column ID_INUT
+gbak:         writing column NU_NF
+gbak:         writing column ANO
+gbak:         writing column DTA_INUT
+gbak:         writing column SERIE
+gbak:         writing column PROTOCOLO
+gbak:         writing column MODELO
+gbak:         writing column JUSTIFICATIVA
+gbak:    writing table TB_USUARIO
+gbak:         writing column USUARIO
+gbak:         writing column ID_USUARIO
+gbak:         writing column SENHA
+gbak:         writing column FLG_ATIVA
+gbak:    writing table TB_NFE_PROT
+gbak:         writing column VERAPLIC
+gbak:         writing column XML_PROT
+gbak:         writing column ID_NFE_TRANS
+gbak:         writing column CSTAT
+gbak:         writing column UF
+gbak:         writing column NU_NF
+gbak:         writing column DATA_PROT
+gbak:         writing column HORA
+gbak:         writing column CHAVE_NFE
+gbak:         writing column N_PROTOCOLO
+gbak:         writing column DIGVALUE
+gbak:         writing column MOTIVO
+gbak:    writing table TB_NFE_CONF_EMAIL
+gbak:         writing column ASSUNTO
+gbak:         writing column SENHA
+gbak:         writing column USUARIO
+gbak:         writing column ID_NFE_CONF_EMAIL
+gbak:         writing column SERVER_SMTP
+gbak:         writing column PORTA_SMTP
+gbak:         writing column EMAIL_REMETENTE
+gbak:         writing column MENSAGEM
+gbak:         writing column FLG_SSI
+gbak:         writing column FLG_DANFE
+gbak:         writing column FLG_EMAIL_AUTO
+gbak:         writing column FLG_SSL
+gbak:    writing table TB_NFE_LOG
+gbak:         writing column DATA_HORA
+gbak:         writing column ID_LOG
+gbak:         writing column NU_NF
+gbak:         writing column DESC_EVENTO
+gbak:    writing table TB_NFE_EXPORTXML
+gbak:         writing column HORA
+gbak:         writing column ID_NFE_EXPORT
+gbak:         writing column DIA
+gbak:         writing column FLG_AUTORIZADA
+gbak:         writing column FLG_CANCELADA
+gbak:         writing column FLG_PRTAUTO
+gbak:         writing column FLG_PRTCANCEL
+gbak:         writing column FLG_INUTILIZADA
+gbak:         writing column FLG_PERIODO
+gbak:    writing table TB_NFE_MSG
+gbak:         writing column COD_MSG
+gbak:         writing column MSG
+gbak:    writing table TB_NFE_DPEC
+gbak:         writing column DPEC_XML
+gbak:         writing column ID_NFE_DPEC
+gbak:         writing column DTA_DPEC
+gbak:         writing column CHAVE_NFE
+gbak:         writing column PROTOCOLO_DPEC
+gbak:         writing column MOTIVO_DPEC
+gbak:         writing column NU_NFE
+gbak:    writing table TB_NFE_REJEITADA
+gbak:         writing column CPF_CNPJ
+gbak:         writing column NOME_DEST
+gbak:         writing column ID_NF_REG
+gbak:         writing column DTA_EMISSAO
+gbak:         writing column NU_NFE
+gbak:         writing column COD_SITUACAO
+gbak:         writing column CHAVE_NFE
+gbak:    writing table TB_NFE_CONTINGENCIA
+gbak:         writing column DTA_CONTI
+gbak:         writing column ID_CONTINGENCIA
+gbak:         writing column MOTIVO
+gbak:         writing column FLG_TP_CONTI
+gbak:    writing table TB_NFE_TRANS
+gbak:         writing column CPF_CNPJ
+gbak:         writing column NOME_DEST
+gbak:         writing column NFE_XML
+gbak:         writing column NFE_XML_CANC
+gbak:         writing column XML_PROT_AUTO
+gbak:         writing column ID_NFE_TRANS
+gbak:         writing column DTA_EMISSAO
+gbak:         writing column DTA_AUTORIZACAO
+gbak:         writing column DTA_CANCELAMENTO
+gbak:         writing column COD_SITUACAO
+gbak:         writing column HORA_AUTO
+gbak:         writing column CHAVE_NFE
+gbak:         writing column PROTOCOLO_ENVIO
+gbak:         writing column PROTOCOLO_CANCEL
+gbak:         writing column NRECIBO
+gbak:         writing column SERIE
+gbak:         writing column NU_NFE
+gbak:         writing column FLG_IMPR
+gbak:         writing column FLG_AUTORIZADA
+gbak:         writing column FLG_TP_TRANS
+gbak:    writing table TB_NFE_SERV_DPEC
+gbak:         writing column ID_SERV_DPEC
+gbak:         writing column CONSULTA
+gbak:         writing column ENVIO
+gbak:         writing column FLG_PRODUCAO
+gbak:    writing table TB_NFE_SERVIDOR
+gbak:         writing column ID_SERVIDOR
+gbak:         writing column CAD_CONSULTA
+gbak:         writing column CCE
+gbak:         writing column NFE_CANCELAMENTO
+gbak:         writing column NFE_CONSULTA
+gbak:         writing column NFE_INUTILIZA
+gbak:         writing column NFE_RECEPCAO
+gbak:         writing column NFE_RETRECEPCAO
+gbak:         writing column NFE_STATUS_SERVICO
+gbak:         writing column UF
+gbak:         writing column NFE_RECEPCAOEVENTO
+gbak:         writing column FLG_AMBIENTE
+gbak:    writing table TB_NFE_SHEMA
+gbak:         writing column NOME_SHEMA_CCE
+gbak:         writing column NOME_SHEMA_CONS_NFE
+gbak:         writing column NOME_SHEMA_CONS_PROT
+gbak:         writing column NOME_SHEMA_DPEC
+gbak:         writing column NOME_SHEMA_INUTILIZA
+gbak:         writing column NOME_SHEMA_NFE
+gbak:         writing column ID_SHEMA
+gbak:         writing column DIR_SHEMA
+gbak:         writing column MSG_ERRO_CANCELA
+gbak:         writing column MSG_ERRO_CCE
+gbak:         writing column MSG_ERRO_PROTOCOLO
+gbak:         writing column MSG_ERRO_DPEC
+gbak:         writing column MSG_ERRO_INUTILIZA
+gbak:         writing column MSG_ERRO_NFE
+gbak:    writing table TB_NFE_ENDERECO
+gbak:         writing column BAIRRO
+gbak:         writing column ID_ENDERECO
+gbak:         writing column ID_EMITENTE
+gbak:         writing column CEP
+gbak:         writing column UF
+gbak:         writing column COD_UF
+gbak:         writing column COD_MUNICIPIO
+gbak:         writing column LOGRADOURO
+gbak:         writing column COMPLEMENTO
+gbak:         writing column PAIS
+gbak:         writing column MUNICIPIO
+gbak:         writing column NUMERO
+gbak:         writing column COD_PAIS
+gbak:         writing column TELEFONE
+gbak:    writing table TB_NFE_CCE
+gbak:         writing column IDLOTE
+gbak:         writing column ID
+gbak:         writing column CNPJ
+gbak:         writing column TPEVENTO
+gbak:         writing column XML_CCE
+gbak:         writing column DHEVENTO
+gbak:         writing column VERSAO_L
+gbak:         writing column VERSAO_E
+gbak:         writing column CORGAO
+gbak:         writing column TPAMB
+gbak:         writing column CHNFE
+gbak:         writing column NSEQEVENTO
+gbak:         writing column VEREVENTO
+gbak:         writing column DESCEVENTO
+gbak:         writing column XCORRECAO
+gbak:         writing column CPF
+gbak:    writing table TB_NFE_SCAN
+gbak:         writing column DTA_SCAN
+gbak:         writing column ID_NFE_SCAN
+gbak:         writing column ID_NFE_TRANS
+gbak:         writing column MOTIVO_SCAN
+gbak:    writing table TB_IBGE_PAIS
+gbak:         writing column COD_PAIS
+gbak:         writing column NOME_PAIS
+gbak:    writing table TB_IBGE_UF
+gbak:         writing column NOME_UF
+gbak:         writing column COD_UF
+gbak:         writing column SIGLA
+gbak:    writing table TB_IBGE_MUNICIPIO
+gbak:         writing column COD_MUNICIPIO
+gbak:         writing column COD_UF
+gbak:         writing column NOME_MUNICIPIO
+gbak:writing types
+gbak:writing filters
+gbak:writing id generators
+gbak:writing stored procedures
+gbak:writing stored procedure P_AUTO_NUM
+gbak:writing parameter CAMPO for stored procedure
+gbak:writing parameter TABELA for stored procedure
+gbak:writing parameter NEW_ID for stored procedure
+gbak:writing stored procedure P_NFE_CANC
+gbak:writing parameter DATA_HORA for stored procedure
+gbak:writing parameter DTA_AUTORIZACAO for stored procedure
+gbak:writing parameter NU_NFE for stored procedure
+gbak:writing parameter PROTOCOLO_ENVIO for stored procedure
+gbak:writing parameter CHAVE_NFE for stored procedure
+gbak:writing parameter NOME_DEST for stored procedure
+gbak:writing parameter CPF_CNPJ for stored procedure
+gbak:writing exceptions
+gbak:    writing index PK_MUNICIPIO
+gbak:    writing index FK_MUNICIPIO
+gbak:    writing index IDX_FK_MUNICIPIO
+gbak:    writing data for table TB_IBGE_MUNICIPIO
+gbak:0 records written
+gbak:    writing index PK_UF
+gbak:    writing index IDX_PK_UF
+gbak:    writing data for table TB_IBGE_UF
+gbak:28 records written
+gbak:    writing index PK_PAIS
+gbak:    writing index IDX_PK_PAIS
+gbak:    writing data for table TB_IBGE_PAIS
+gbak:0 records written
+gbak:    writing index PK_SCAN
+gbak:    writing index FK_TRANS_SCAN
+gbak:    writing index IDX_PK_FK_SCAN
+gbak:    writing data for table TB_NFE_SCAN
+gbak:0 records written
+gbak:    writing index RDB$PRIMARY9
+gbak:    writing data for table TB_NFE_CCE
+gbak:0 records written
+gbak:    writing index PK_ENDERECO
+gbak:    writing index FK_ENDERECO
+gbak:    writing index IDX_FK_ENDERECO
+gbak:    writing data for table TB_NFE_ENDERECO
+gbak:0 records written
+gbak:    writing index PK_SHEMA
+gbak:    writing index IDX_PK_SHEMA
+gbak:    writing data for table TB_NFE_SHEMA
+gbak:0 records written
+gbak:    writing index PK_NFE_SERVIDOR
+gbak:    writing index IDX_FK_SERVIDOR
+gbak:    writing data for table TB_NFE_SERVIDOR
+gbak:54 records written
+gbak:    writing index PK_NFE_SERV_DPEC
+gbak:    writing index IDX_PK_SERV_DPEC
+gbak:    writing data for table TB_NFE_SERV_DPEC
+gbak:0 records written
+gbak:    writing index PK_NFE_TRANS
+gbak:    writing index IDX_IDNFE
+gbak:    writing index IDX_ID_NFE
+gbak:    writing index IDX_PK_TRANS
+gbak:    writing data for table TB_NFE_TRANS
+gbak:2079 records written
+gbak:    writing index PK_CONT
+gbak:    writing index IDX_PK_CONT
+gbak:    writing data for table TB_NFE_CONTINGENCIA
+gbak:1 records written
+gbak:    writing index PK_TB_NFE_REJEITADA
+gbak:    writing data for table TB_NFE_REJEITADA
+gbak:282 records written
+gbak:    writing index PK_DPEC
+gbak:    writing index FK_TRANS_DPEC
+gbak:    writing index IDX_PK_FK_DPEC
+gbak:    writing data for table TB_NFE_DPEC
+gbak:0 records written
+gbak:    writing index PK_MSG_NFE
+gbak:    writing index IDX_COD_MSG
+gbak:    writing data for table TB_NFE_MSG
+gbak:285 records written
+gbak:    writing index RDB$PRIMARY10
+gbak:    writing data for table TB_NFE_EXPORTXML
+gbak:0 records written
+gbak:    writing index RDB$PRIMARY6
+gbak:    writing data for table TB_NFE_LOG
+gbak:16543 records written
+gbak:    writing index PK_NFE_CONF_EMIAL
+gbak:    writing data for table TB_NFE_CONF_EMAIL
+gbak:1 records written
+gbak:    writing index UNQ_PROT
+gbak:    writing index FK_TB_NFE_PROT_TRANS
+gbak:    writing data for table TB_NFE_PROT
+gbak:0 records written
+gbak:    writing index PK_USUARIO
+gbak:    writing data for table TB_USUARIO
+gbak:1 records written
+gbak:    writing index PK_TB_NFE_INUT
+gbak:    writing data for table TB_NFE_INUT
+gbak:0 records written
+gbak:    writing index PK_NFE_EMITENTE
+gbak:    writing index IDX_PK_EMITENTE
+gbak:    writing data for table TB_NFE_EMITENTE
+gbak:1 records written
+gbak:    writing index PK_NFE_CONF
+gbak:    writing index IDX_PK_NFE_CONF
+gbak:    writing data for table TB_NFE_CONF
+gbak:1 records written
+gbak:writing triggers
+gbak:writing trigger messages
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user PUBLIC
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user PUBLIC
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user PUBLIC
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:    writing privilege for user SYSDBA
+gbak:writing table constraints
+gbak:writing constraint INTEG_83
+gbak:writing constraint INTEG_84
+gbak:writing constraint PK_NFE_CONF
+gbak:writing constraint INTEG_85
+gbak:writing constraint INTEG_86
+gbak:writing constraint INTEG_87
+gbak:writing constraint PK_NFE_EMITENTE
+gbak:writing constraint INTEG_111
+gbak:writing constraint PK_USUARIO
+gbak:writing constraint INTEG_112
+gbak:writing constraint PK_CONT
+gbak:writing constraint INTEG_110
+gbak:writing constraint PK_NFE_CONF_EMIAL
+gbak:writing constraint INTEG_126
+gbak:writing constraint INTEG_124
+gbak:writing constraint PK_NFE_TRANS
+gbak:writing constraint IDX_IDNFE
+gbak:writing constraint INTEG_94
+gbak:writing constraint INTEG_95
+gbak:writing constraint INTEG_96
+gbak:writing constraint INTEG_97
+gbak:writing constraint INTEG_98
+gbak:writing constraint INTEG_99
+gbak:writing constraint PK_ENDERECO
+gbak:writing constraint FK_ENDERECO
+gbak:writing constraint INTEG_100
+gbak:writing constraint PK_PAIS
+gbak:writing constraint INTEG_101
+gbak:writing constraint PK_UF
+gbak:writing constraint INTEG_102
+gbak:writing constraint INTEG_103
+gbak:writing constraint PK_MUNICIPIO
+gbak:writing constraint FK_MUNICIPIO
+gbak:writing constraint INTEG_104
+gbak:writing constraint PK_MSG_NFE
+gbak:writing constraint INTEG_107
+gbak:writing constraint PK_NFE_SERV_DPEC
+gbak:writing constraint INTEG_105
+gbak:writing constraint PK_NFE_SERVIDOR
+gbak:writing constraint INTEG_108
+gbak:writing constraint PK_SHEMA
+gbak:writing constraint INTEG_125
+gbak:writing constraint INTEG_127
+gbak:writing constraint INTEG_128
+gbak:writing constraint PK_SCAN
+gbak:writing constraint FK_TRANS_SCAN
+gbak:writing constraint PK_DPEC
+gbak:writing constraint FK_TRANS_DPEC
+gbak:writing constraint INTEG_135
+gbak:writing constraint INTEG_136
+gbak:writing constraint INTEG_142
+gbak:writing constraint INTEG_143
+gbak:writing constraint INTEG_144
+gbak:writing constraint INTEG_145
+gbak:writing constraint PK_TB_NFE_INUT
+gbak:writing constraint INTEG_146
+gbak:writing constraint INTEG_147
+gbak:writing constraint INTEG_148
+gbak:writing constraint UNQ_PROT
+gbak:writing constraint FK_TB_NFE_PROT_TRANS
+gbak:writing constraint INTEG_149
+gbak:writing constraint PK_TB_NFE_REJEITADA
+gbak:writing constraint INTEG_150
+gbak:writing constraint INTEG_151
+gbak:writing referential constraints
+gbak:writing check constraints
+gbak:writing SQL roles
+gbak:writing names mapping
+gbak:closing file, committing, and finishing. 35301376 bytes written

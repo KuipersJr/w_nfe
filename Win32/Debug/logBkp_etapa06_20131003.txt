@@ -1,0 +1,720 @@
+gbak:opened file \WHCI_NFE.FDB_201310031555.FBK
+gbak:transportable backup -- data in XDR format
+gbak:		backup file is compressed
+gbak:created database C:\db_empr_nfe\popkrok\WHCI_NFE.FDB, page_size 4096 bytes
+gbak:started transaction
+gbak:restoring domain RDB$304
+gbak:restoring domain RDB$305
+gbak:restoring domain RDB$306
+gbak:restoring domain RDB$307
+gbak:restoring domain RDB$308
+gbak:restoring domain RDB$309
+gbak:restoring domain RDB$310
+gbak:restoring domain RDB$311
+gbak:restoring domain RDB$312
+gbak:restoring domain RDB$465
+gbak:restoring domain RDB$435
+gbak:restoring domain RDB$315
+gbak:restoring domain RDB$316
+gbak:restoring domain RDB$436
+gbak:restoring domain RDB$437
+gbak:restoring domain RDB$438
+gbak:restoring domain RDB$320
+gbak:restoring domain RDB$321
+gbak:restoring domain RDB$322
+gbak:restoring domain RDB$323
+gbak:restoring domain RDB$324
+gbak:restoring domain RDB$325
+gbak:restoring domain RDB$326
+gbak:restoring domain RDB$327
+gbak:restoring domain RDB$328
+gbak:restoring domain RDB$329
+gbak:restoring domain RDB$430
+gbak:restoring domain RDB$461
+gbak:restoring domain RDB$462
+gbak:restoring domain RDB$463
+gbak:restoring domain RDB$464
+gbak:restoring domain RDB$466
+gbak:restoring domain RDB$467
+gbak:restoring domain RDB$468
+gbak:restoring domain RDB$469
+gbak:restoring domain RDB$550
+gbak:restoring domain RDB$551
+gbak:restoring domain RDB$552
+gbak:restoring domain RDB$450
+gbak:restoring domain RDB$451
+gbak:restoring domain RDB$452
+gbak:restoring domain RDB$453
+gbak:restoring domain RDB$454
+gbak:restoring domain RDB$455
+gbak:restoring domain RDB$410
+gbak:restoring domain RDB$411
+gbak:restoring domain RDB$412
+gbak:restoring domain RDB$413
+gbak:restoring domain RDB$456
+gbak:restoring domain RDB$457
+gbak:restoring domain RDB$361
+gbak:restoring domain RDB$362
+gbak:restoring domain RDB$363
+gbak:restoring domain RDB$364
+gbak:restoring domain RDB$365
+gbak:restoring domain RDB$366
+gbak:restoring domain RDB$367
+gbak:restoring domain RDB$368
+gbak:restoring domain RDB$369
+gbak:restoring domain RDB$370
+gbak:restoring domain RDB$371
+gbak:restoring domain RDB$372
+gbak:restoring domain RDB$373
+gbak:restoring domain RDB$374
+gbak:restoring domain RDB$375
+gbak:restoring domain RDB$376
+gbak:restoring domain RDB$377
+gbak:restoring domain RDB$378
+gbak:restoring domain RDB$379
+gbak:restoring domain RDB$380
+gbak:restoring domain RDB$381
+gbak:restoring domain RDB$382
+gbak:restoring domain RDB$396
+gbak:restoring domain RDB$397
+gbak:restoring domain RDB$398
+gbak:restoring domain RDB$387
+gbak:restoring domain RDB$388
+gbak:restoring domain RDB$389
+gbak:restoring domain RDB$458
+gbak:restoring domain RDB$414
+gbak:restoring domain RDB$415
+gbak:restoring domain RDB$416
+gbak:restoring domain RDB$399
+gbak:restoring domain RDB$417
+gbak:restoring domain RDB$418
+gbak:restoring domain RDB$419
+gbak:restoring domain RDB$420
+gbak:restoring domain RDB$401
+gbak:restoring domain RDB$402
+gbak:restoring domain RDB$403
+gbak:restoring domain RDB$404
+gbak:restoring domain RDB$405
+gbak:restoring domain RDB$406
+gbak:restoring domain RDB$407
+gbak:restoring domain RDB$408
+gbak:restoring domain RDB$543
+gbak:restoring domain RDB$421
+gbak:restoring domain RDB$422
+gbak:restoring domain RDB$423
+gbak:restoring domain RDB$424
+gbak:restoring domain RDB$425
+gbak:restoring domain RDB$426
+gbak:restoring domain RDB$427
+gbak:restoring domain RDB$459
+gbak:restoring domain RDB$460
+gbak:restoring domain RDB$540
+gbak:restoring domain RDB$541
+gbak:restoring domain RDB$542
+gbak:restoring domain RDB$544
+gbak:restoring domain RDB$545
+gbak:restoring domain RDB$546
+gbak:restoring domain RDB$547
+gbak:restoring domain RDB$553
+gbak:restoring domain RDB$554
+gbak:restoring domain RDB$555
+gbak:restoring domain RDB$556
+gbak:restoring domain RDB$557
+gbak:restoring domain RDB$558
+gbak:restoring domain RDB$559
+gbak:restoring domain RDB$560
+gbak:restoring domain RDB$561
+gbak:restoring domain RDB$562
+gbak:restoring domain RDB$563
+gbak:restoring domain RDB$564
+gbak:restoring domain RDB$565
+gbak:restoring domain RDB$566
+gbak:restoring domain RDB$567
+gbak:restoring domain RDB$568
+gbak:restoring domain RDB$569
+gbak:restoring domain RDB$623
+gbak:restoring domain RDB$624
+gbak:restoring domain RDB$625
+gbak:restoring domain RDB$626
+gbak:restoring domain RDB$627
+gbak:restoring domain RDB$575
+gbak:restoring domain RDB$576
+gbak:restoring domain RDB$604
+gbak:restoring domain RDB$605
+gbak:restoring domain RDB$606
+gbak:restoring domain RDB$607
+gbak:restoring domain RDB$608
+gbak:restoring domain RDB$609
+gbak:restoring domain RDB$628
+gbak:restoring domain RDB$629
+gbak:restoring domain RDB$602
+gbak:restoring domain RDB$678
+gbak:restoring domain RDB$679
+gbak:restoring domain RDB$603
+gbak:restoring domain RDB$680
+gbak:restoring domain RDB$681
+gbak:restoring domain RDB$682
+gbak:restoring domain RDB$683
+gbak:restoring domain RDB$684
+gbak:restoring domain RDB$685
+gbak:restoring domain RDB$686
+gbak:restoring domain RDB$687
+gbak:restoring domain RDB$688
+gbak:restoring domain RDB$689
+gbak:restoring domain RDB$690
+gbak:restoring domain RDB$691
+gbak:restoring domain RDB$692
+gbak:restoring domain RDB$693
+gbak:restoring domain RDB$694
+gbak:restoring domain RDB$695
+gbak:restoring domain RDB$696
+gbak:restoring domain RDB$697
+gbak:restoring domain RDB$698
+gbak:restoring domain RDB$699
+gbak:restoring domain RDB$700
+gbak:restoring domain RDB$701
+gbak:restoring domain RDB$702
+gbak:restoring domain RDB$703
+gbak:restoring domain RDB$704
+gbak:restoring domain RDB$705
+gbak:restoring domain RDB$706
+gbak:restoring domain RDB$707
+gbak:restoring domain RDB$708
+gbak:restoring domain RDB$709
+gbak:restoring domain RDB$710
+gbak:restoring domain RDB$711
+gbak:restoring domain RDB$712
+gbak:restoring domain RDB$713
+gbak:restoring domain RDB$714
+gbak:restoring domain RDB$715
+gbak:restoring domain RDB$716
+gbak:restoring domain RDB$717
+gbak:restoring domain RDB$718
+gbak:restoring domain RDB$719
+gbak:restoring domain RDB$720
+gbak:restoring domain RDB$721
+gbak:restoring domain RDB$722
+gbak:restoring domain RDB$723
+gbak:restoring domain RDB$724
+gbak:restoring domain RDB$725
+gbak:restoring domain RDB$726
+gbak:restoring domain RDB$727
+gbak:restoring domain RDB$728
+gbak:restoring domain RDB$729
+gbak:restoring domain RDB$730
+gbak:restoring domain RDB$731
+gbak:restoring domain RDB$732
+gbak:restoring domain RDB$733
+gbak:restoring domain RDB$734
+gbak:restoring domain RDB$735
+gbak:restoring domain RDB$736
+gbak:restoring table TB_NFE_CONF
+gbak:    restoring column IMG_LOGO
+gbak:    restoring column ID_NFE_CONF
+gbak:    restoring column PROXY
+gbak:    restoring column PROXY_SENHA
+gbak:    restoring column PROXY_USER
+gbak:    restoring column IMP_PADRAO
+gbak:    restoring column DIR_EXPORTACAO
+gbak:    restoring column DIR_LOG
+gbak:    restoring column QTDE_IMP
+gbak:    restoring column DIR_TXTNFE
+gbak:    restoring column FLG_ARQ_LOG
+gbak:    restoring column NOME_CERTIFICADO
+gbak:    restoring column TIPO_CERTIFICADO
+gbak:    restoring column FLG_VALIDA
+gbak:    restoring column FLG_TP_IMP
+gbak:    restoring column FLG_IMPRIME
+gbak:    restoring column FLG_AMBIENTE
+gbak:    restoring column FLG_MODOIMP
+gbak:    restoring column FLG_MONITORA
+gbak:    restoring column FLG_SIMPLESN
+gbak:    restoring column FLG_TRAYICON
+gbak:committing metadata for table TB_NFE_CONF
+gbak:restoring table TB_NFE_EMITENTE
+gbak:    restoring column CNPJ
+gbak:    restoring column IE
+gbak:    restoring column IE_ST
+gbak:    restoring column ID_EMITENTE
+gbak:    restoring column NOME_RZ
+gbak:    restoring column FANTASIA
+gbak:    restoring column CRT
+gbak:    restoring column COD_UF
+gbak:    restoring column CNAE
+gbak:    restoring column IM
+gbak:    restoring column FLG_AUTORIZADO
+gbak:committing metadata for table TB_NFE_EMITENTE
+gbak:restoring table TB_NFE_INUT
+gbak:    restoring column XML_RET
+gbak:    restoring column CNPJ
+gbak:    restoring column ID_INUT
+gbak:    restoring column NU_NF
+gbak:    restoring column ANO
+gbak:    restoring column DTA_INUT
+gbak:    restoring column SERIE
+gbak:    restoring column PROTOCOLO
+gbak:    restoring column MODELO
+gbak:    restoring column JUSTIFICATIVA
+gbak:committing metadata for table TB_NFE_INUT
+gbak:restoring table TB_USUARIO
+gbak:    restoring column USUARIO
+gbak:    restoring column ID_USUARIO
+gbak:    restoring column SENHA
+gbak:    restoring column FLG_ATIVA
+gbak:committing metadata for table TB_USUARIO
+gbak:restoring table TB_NFE_PROT
+gbak:    restoring column VERAPLIC
+gbak:    restoring column XML_PROT
+gbak:    restoring column ID_NFE_TRANS
+gbak:    restoring column CSTAT
+gbak:    restoring column UF
+gbak:    restoring column NU_NF
+gbak:    restoring column DATA_PROT
+gbak:    restoring column HORA
+gbak:    restoring column CHAVE_NFE
+gbak:    restoring column N_PROTOCOLO
+gbak:    restoring column DIGVALUE
+gbak:    restoring column MOTIVO
+gbak:committing metadata for table TB_NFE_PROT
+gbak:restoring table TB_NFE_CONF_EMAIL
+gbak:    restoring column ASSUNTO
+gbak:    restoring column SENHA
+gbak:    restoring column USUARIO
+gbak:    restoring column ID_NFE_CONF_EMAIL
+gbak:    restoring column SERVER_SMTP
+gbak:    restoring column PORTA_SMTP
+gbak:    restoring column EMAIL_REMETENTE
+gbak:    restoring column MENSAGEM
+gbak:    restoring column FLG_SSI
+gbak:    restoring column FLG_DANFE
+gbak:    restoring column FLG_EMAIL_AUTO
+gbak:    restoring column FLG_SSL
+gbak:committing metadata for table TB_NFE_CONF_EMAIL
+gbak:restoring table TB_NFE_LOG
+gbak:    restoring column DATA_HORA
+gbak:    restoring column ID_LOG
+gbak:    restoring column NU_NF
+gbak:    restoring column DESC_EVENTO
+gbak:committing metadata for table TB_NFE_LOG
+gbak:restoring table TB_NFE_EXPORTXML
+gbak:    restoring column HORA
+gbak:    restoring column ID_NFE_EXPORT
+gbak:    restoring column DIA
+gbak:    restoring column FLG_AUTORIZADA
+gbak:    restoring column FLG_CANCELADA
+gbak:    restoring column FLG_PRTAUTO
+gbak:    restoring column FLG_PRTCANCEL
+gbak:    restoring column FLG_INUTILIZADA
+gbak:    restoring column FLG_PERIODO
+gbak:committing metadata for table TB_NFE_EXPORTXML
+gbak:restoring table TB_NFE_MSG
+gbak:    restoring column COD_MSG
+gbak:    restoring column MSG
+gbak:committing metadata for table TB_NFE_MSG
+gbak:restoring table TB_NFE_DPEC
+gbak:    restoring column DPEC_XML
+gbak:    restoring column ID_NFE_DPEC
+gbak:    restoring column DTA_DPEC
+gbak:    restoring column CHAVE_NFE
+gbak:    restoring column PROTOCOLO_DPEC
+gbak:    restoring column MOTIVO_DPEC
+gbak:    restoring column NU_NFE
+gbak:committing metadata for table TB_NFE_DPEC
+gbak:restoring table TB_NFE_REJEITADA
+gbak:    restoring column CPF_CNPJ
+gbak:    restoring column NOME_DEST
+gbak:    restoring column ID_NF_REG
+gbak:    restoring column DTA_EMISSAO
+gbak:    restoring column NU_NFE
+gbak:    restoring column COD_SITUACAO
+gbak:    restoring column CHAVE_NFE
+gbak:committing metadata for table TB_NFE_REJEITADA
+gbak:restoring table TB_NFE_CONTINGENCIA
+gbak:    restoring column DTA_CONTI
+gbak:    restoring column ID_CONTINGENCIA
+gbak:    restoring column MOTIVO
+gbak:    restoring column FLG_TP_CONTI
+gbak:committing metadata for table TB_NFE_CONTINGENCIA
+gbak:restoring table TB_NFE_TRANS
+gbak:    restoring column CPF_CNPJ
+gbak:    restoring column NOME_DEST
+gbak:    restoring column NFE_XML
+gbak:    restoring column NFE_XML_CANC
+gbak:    restoring column XML_PROT_AUTO
+gbak:    restoring column ID_NFE_TRANS
+gbak:    restoring column DTA_EMISSAO
+gbak:    restoring column DTA_AUTORIZACAO
+gbak:    restoring column DTA_CANCELAMENTO
+gbak:    restoring column COD_SITUACAO
+gbak:    restoring column HORA_AUTO
+gbak:    restoring column CHAVE_NFE
+gbak:    restoring column PROTOCOLO_ENVIO
+gbak:    restoring column PROTOCOLO_CANCEL
+gbak:    restoring column NRECIBO
+gbak:    restoring column SERIE
+gbak:    restoring column NU_NFE
+gbak:    restoring column FLG_IMPR
+gbak:    restoring column FLG_AUTORIZADA
+gbak:    restoring column FLG_TP_TRANS
+gbak:committing metadata for table TB_NFE_TRANS
+gbak:restoring table TB_NFE_SERV_DPEC
+gbak:    restoring column ID_SERV_DPEC
+gbak:    restoring column CONSULTA
+gbak:    restoring column ENVIO
+gbak:    restoring column FLG_PRODUCAO
+gbak:committing metadata for table TB_NFE_SERV_DPEC
+gbak:restoring table TB_NFE_SERVIDOR
+gbak:    restoring column ID_SERVIDOR
+gbak:    restoring column CAD_CONSULTA
+gbak:    restoring column CCE
+gbak:    restoring column NFE_CANCELAMENTO
+gbak:    restoring column NFE_CONSULTA
+gbak:    restoring column NFE_INUTILIZA
+gbak:    restoring column NFE_RECEPCAO
+gbak:    restoring column NFE_RETRECEPCAO
+gbak:    restoring column NFE_STATUS_SERVICO
+gbak:    restoring column UF
+gbak:    restoring column NFE_RECEPCAOEVENTO
+gbak:    restoring column FLG_AMBIENTE
+gbak:committing metadata for table TB_NFE_SERVIDOR
+gbak:restoring table TB_NFE_SHEMA
+gbak:    restoring column NOME_SHEMA_CCE
+gbak:    restoring column NOME_SHEMA_CONS_NFE
+gbak:    restoring column NOME_SHEMA_CONS_PROT
+gbak:    restoring column NOME_SHEMA_DPEC
+gbak:    restoring column NOME_SHEMA_INUTILIZA
+gbak:    restoring column NOME_SHEMA_NFE
+gbak:    restoring column ID_SHEMA
+gbak:    restoring column DIR_SHEMA
+gbak:    restoring column MSG_ERRO_CANCELA
+gbak:    restoring column MSG_ERRO_CCE
+gbak:    restoring column MSG_ERRO_PROTOCOLO
+gbak:    restoring column MSG_ERRO_DPEC
+gbak:    restoring column MSG_ERRO_INUTILIZA
+gbak:    restoring column MSG_ERRO_NFE
+gbak:committing metadata for table TB_NFE_SHEMA
+gbak:restoring table TB_NFE_ENDERECO
+gbak:    restoring column BAIRRO
+gbak:    restoring column ID_ENDERECO
+gbak:    restoring column ID_EMITENTE
+gbak:    restoring column CEP
+gbak:    restoring column UF
+gbak:    restoring column COD_UF
+gbak:    restoring column COD_MUNICIPIO
+gbak:    restoring column LOGRADOURO
+gbak:    restoring column COMPLEMENTO
+gbak:    restoring column PAIS
+gbak:    restoring column MUNICIPIO
+gbak:    restoring column NUMERO
+gbak:    restoring column COD_PAIS
+gbak:    restoring column TELEFONE
+gbak:committing metadata for table TB_NFE_ENDERECO
+gbak:restoring table TB_NFE_CCE
+gbak:    restoring column IDLOTE
+gbak:    restoring column ID
+gbak:    restoring column CNPJ
+gbak:    restoring column TPEVENTO
+gbak:    restoring column XML_CCE
+gbak:    restoring column DHEVENTO
+gbak:    restoring column VERSAO_L
+gbak:    restoring column VERSAO_E
+gbak:    restoring column CORGAO
+gbak:    restoring column TPAMB
+gbak:    restoring column CHNFE
+gbak:    restoring column NSEQEVENTO
+gbak:    restoring column VEREVENTO
+gbak:    restoring column DESCEVENTO
+gbak:    restoring column XCORRECAO
+gbak:    restoring column CPF
+gbak:committing metadata for table TB_NFE_CCE
+gbak:restoring table TB_NFE_SCAN
+gbak:    restoring column DTA_SCAN
+gbak:    restoring column ID_NFE_SCAN
+gbak:    restoring column ID_NFE_TRANS
+gbak:    restoring column MOTIVO_SCAN
+gbak:committing metadata for table TB_NFE_SCAN
+gbak:restoring table TB_IBGE_PAIS
+gbak:    restoring column COD_PAIS
+gbak:    restoring column NOME_PAIS
+gbak:committing metadata for table TB_IBGE_PAIS
+gbak:restoring table TB_IBGE_UF
+gbak:    restoring column NOME_UF
+gbak:    restoring column COD_UF
+gbak:    restoring column SIGLA
+gbak:committing metadata for table TB_IBGE_UF
+gbak:restoring table TB_IBGE_MUNICIPIO
+gbak:    restoring column COD_MUNICIPIO
+gbak:    restoring column COD_UF
+gbak:    restoring column NOME_MUNICIPIO
+gbak:committing metadata for table TB_IBGE_MUNICIPIO
+gbak:restoring stored procedure P_AUTO_NUM
+gbak:restoring parameter CAMPO for stored procedure
+gbak:restoring parameter TABELA for stored procedure
+gbak:restoring parameter NEW_ID for stored procedure
+gbak:restoring stored procedure P_NFE_CANC
+gbak:restoring parameter DATA_HORA for stored procedure
+gbak:restoring parameter DTA_AUTORIZACAO for stored procedure
+gbak:restoring parameter NU_NFE for stored procedure
+gbak:restoring parameter PROTOCOLO_ENVIO for stored procedure
+gbak:restoring parameter CHAVE_NFE for stored procedure
+gbak:restoring parameter NOME_DEST for stored procedure
+gbak:restoring parameter CPF_CNPJ for stored procedure
+gbak:    committing metadata
+gbak:    restoring index PK_MUNICIPIO
+gbak:    restoring index FK_MUNICIPIO
+gbak:    restoring index IDX_FK_MUNICIPIO
+gbak:    restoring index PK_UF
+gbak:    restoring index IDX_PK_UF
+gbak:restoring data for table TB_IBGE_UF
+gbak:committing data for table TB_IBGE_UF
+gbak:   28 records restored
+gbak:    restoring index PK_PAIS
+gbak:    restoring index IDX_PK_PAIS
+gbak:    restoring index PK_SCAN
+gbak:    restoring index FK_TRANS_SCAN
+gbak:    restoring index IDX_PK_FK_SCAN
+gbak:    restoring index RDB$PRIMARY9
+gbak:    restoring index PK_ENDERECO
+gbak:    restoring index FK_ENDERECO
+gbak:    restoring index IDX_FK_ENDERECO
+gbak:    restoring index PK_SHEMA
+gbak:    restoring index IDX_PK_SHEMA
+gbak:    restoring index PK_NFE_SERVIDOR
+gbak:    restoring index IDX_FK_SERVIDOR
+gbak:restoring data for table TB_NFE_SERVIDOR
+gbak:committing data for table TB_NFE_SERVIDOR
+gbak:   54 records restored
+gbak:    restoring index PK_NFE_SERV_DPEC
+gbak:    restoring index IDX_PK_SERV_DPEC
+gbak:    restoring index PK_NFE_TRANS
+gbak:    restoring index IDX_IDNFE
+gbak:    restoring index IDX_ID_NFE
+gbak:    restoring index IDX_PK_TRANS
+gbak:restoring data for table TB_NFE_TRANS
+gbak:committing data for table TB_NFE_TRANS
+gbak:   2079 records restored
+gbak:    restoring index PK_CONT
+gbak:    restoring index IDX_PK_CONT
+gbak:restoring data for table TB_NFE_CONTINGENCIA
+gbak:committing data for table TB_NFE_CONTINGENCIA
+gbak:   1 records restored
+gbak:    restoring index PK_TB_NFE_REJEITADA
+gbak:restoring data for table TB_NFE_REJEITADA
+gbak:committing data for table TB_NFE_REJEITADA
+gbak:   282 records restored
+gbak:    restoring index PK_DPEC
+gbak:    restoring index FK_TRANS_DPEC
+gbak:    restoring index IDX_PK_FK_DPEC
+gbak:    restoring index PK_MSG_NFE
+gbak:    restoring index IDX_COD_MSG
+gbak:restoring data for table TB_NFE_MSG
+gbak:committing data for table TB_NFE_MSG
+gbak:   285 records restored
+gbak:    restoring index RDB$PRIMARY10
+gbak:    restoring index RDB$PRIMARY6
+gbak:restoring data for table TB_NFE_LOG
+gbak:   10000 records restored
+gbak:committing data for table TB_NFE_LOG
+gbak:   16543 records restored
+gbak:    restoring index PK_NFE_CONF_EMIAL
+gbak:restoring data for table TB_NFE_CONF_EMAIL
+gbak:committing data for table TB_NFE_CONF_EMAIL
+gbak:   1 records restored
+gbak:    restoring index UNQ_PROT
+gbak:    restoring index FK_TB_NFE_PROT_TRANS
+gbak:    restoring index PK_USUARIO
+gbak:restoring data for table TB_USUARIO
+gbak:committing data for table TB_USUARIO
+gbak:   1 records restored
+gbak:    restoring index PK_TB_NFE_INUT
+gbak:    restoring index PK_NFE_EMITENTE
+gbak:    restoring index IDX_PK_EMITENTE
+gbak:restoring data for table TB_NFE_EMITENTE
+gbak:committing data for table TB_NFE_EMITENTE
+gbak:   1 records restored
+gbak:    restoring index PK_NFE_CONF
+gbak:    restoring index IDX_PK_NFE_CONF
+gbak:restoring data for table TB_NFE_CONF
+gbak:committing data for table TB_NFE_CONF
+gbak:   1 records restored
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user PUBLIC
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user PUBLIC
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user PUBLIC
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:    restoring privilege for user SYSDBA
+gbak:creating indexes
+gbak:    activating and creating deferred index PK_MUNICIPIO
+gbak:    activating and creating deferred index IDX_FK_MUNICIPIO
+gbak:    activating and creating deferred index PK_UF
+gbak:    activating and creating deferred index IDX_PK_UF
+gbak:    activating and creating deferred index PK_PAIS
+gbak:    activating and creating deferred index IDX_PK_PAIS
+gbak:    activating and creating deferred index PK_SCAN
+gbak:    activating and creating deferred index IDX_PK_FK_SCAN
+gbak:    activating and creating deferred index RDB$PRIMARY9
+gbak:    activating and creating deferred index PK_ENDERECO
+gbak:    activating and creating deferred index IDX_FK_ENDERECO
+gbak:    activating and creating deferred index PK_SHEMA
+gbak:    activating and creating deferred index IDX_PK_SHEMA
+gbak:    activating and creating deferred index PK_NFE_SERVIDOR
+gbak:    activating and creating deferred index IDX_FK_SERVIDOR
+gbak:    activating and creating deferred index PK_NFE_SERV_DPEC
+gbak:    activating and creating deferred index IDX_PK_SERV_DPEC
+gbak:    activating and creating deferred index PK_NFE_TRANS
+gbak:    activating and creating deferred index IDX_IDNFE
+gbak:    activating and creating deferred index IDX_ID_NFE
+gbak:    activating and creating deferred index IDX_PK_TRANS
+gbak:    activating and creating deferred index PK_CONT
+gbak:    activating and creating deferred index IDX_PK_CONT
+gbak:    activating and creating deferred index PK_TB_NFE_REJEITADA
+gbak:    activating and creating deferred index PK_DPEC
+gbak:    activating and creating deferred index IDX_PK_FK_DPEC
+gbak:    activating and creating deferred index PK_MSG_NFE
+gbak:    activating and creating deferred index IDX_COD_MSG
+gbak:    activating and creating deferred index RDB$PRIMARY10
+gbak:    activating and creating deferred index RDB$PRIMARY6
+gbak:    activating and creating deferred index PK_NFE_CONF_EMIAL
+gbak:    activating and creating deferred index UNQ_PROT
+gbak:    activating and creating deferred index PK_USUARIO
+gbak:    activating and creating deferred index PK_TB_NFE_INUT
+gbak:    activating and creating deferred index PK_NFE_EMITENTE
+gbak:    activating and creating deferred index IDX_PK_EMITENTE
+gbak:    activating and creating deferred index PK_NFE_CONF
+gbak:    activating and creating deferred index IDX_PK_NFE_CONF
+gbak:    activating and creating deferred index FK_ENDERECO
+gbak:    activating and creating deferred index FK_MUNICIPIO
+gbak:    activating and creating deferred index FK_TRANS_SCAN
+gbak:    activating and creating deferred index FK_TRANS_DPEC
+gbak:cannot commit index FK_TRANS_DPEC
+gbak: ERROR:unsuccessful metadata update
+gbak: ERROR:    partner index segment no 1 has incompatible data type
+gbak:    activating and creating deferred index FK_TB_NFE_PROT_TRANS
+gbak:    committing metadata
+gbak:finishing, closing, and going home
+gbak:Database is not online due to failure to activate one or more indices.
+gbak:Run gfix -online to bring database online without active indices.

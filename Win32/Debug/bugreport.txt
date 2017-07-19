@@ -1,0 +1,358 @@
+date/time         : 2012-10-03, 16:05:00, 821ms
+computer name     : S2
+user name         : Desenvolvimento_HCI
+registered owner  : Desenvolvimento_HCI / Microsoft
+operating system  : Windows 7 x64 Service Pack 1 build 7601
+system language   : Portuguese
+system up time    : 2 hours 5 minutes
+program up time   : 40 seconds
+processors        : 4x Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+physical memory   : 4253/7337 MB (free/total)
+free disk space   : (C:) 411,47 GB
+display mode      : 1920x1080, 32 bit
+process id        : $14ac
+allocated memory  : 51,94 MB
+executable        : whci_nfe.exe
+exec. date/time   : 2012-10-03 16:04
+version           : 1.0.0.0
+compiled with     : Delphi XE2
+madExcept version : 3.0o
+callstack crc     : $d940b791, $2c646d08, $2c646d08
+exception number  : 1
+exception class   : EnfdNFeException
+exception message : Servidor Homologação para CadConsulta não definido.
+
+main thread ($f48):
+007c9603 +077 whci_nfe.exe nfdNFe2        1674 +11 TnfdNFe2.EndConsCad
+007c8bd9 +275 whci_nfe.exe nfdNFe2        1634 +40 TnfdNFe2.ConsultarCadastro
+00835100 +058 whci_nfe.exe uNfe_Utils       23  +2 GetAutorizacao
+00835c00 +17c whci_nfe.exe uFrmEmitente     57 +16 TfrmEmitente.BitBtn1Click
+00502513 +06f whci_nfe.exe Vcl.Controls            TControl.Click
+0051f1f2 +01e whci_nfe.exe Vcl.StdCtrls            TCustomButton.Click
+005a769d +0a5 whci_nfe.exe Vcl.Buttons             TBitBtn.Click
+0051fd20 +010 whci_nfe.exe Vcl.StdCtrls            TCustomButton.CNCommand
+00501fbd +2bd whci_nfe.exe Vcl.Controls            TControl.WndProc
+0050691b +5b3 whci_nfe.exe Vcl.Controls            TWinControl.WndProc
+0051eebc +06c whci_nfe.exe Vcl.StdCtrls            TButtonControl.WndProc
+00501bf8 +024 whci_nfe.exe Vcl.Controls            TControl.Perform
+00506a6b +023 whci_nfe.exe Vcl.Controls            DoControlMsg
+005074ff +00b whci_nfe.exe Vcl.Controls            TWinControl.WMCommand
+00501fbd +2bd whci_nfe.exe Vcl.Controls            TControl.WndProc
+0050691b +5b3 whci_nfe.exe Vcl.Controls            TWinControl.WndProc
+00487a08 +014 whci_nfe.exe System.Classes          StdWndProc
+00505f70 +02c whci_nfe.exe Vcl.Controls            TWinControl.MainWndProc
+00487a08 +014 whci_nfe.exe System.Classes          StdWndProc
+760696c0 +047 USER32.dll                           SendMessageW
+76070d48 +016 USER32.dll                           CallWindowProcW
+00506a18 +0d8 whci_nfe.exe Vcl.Controls            TWinControl.DefaultHandler
+00502968 +010 whci_nfe.exe Vcl.Controls            TControl.WMLButtonUp
+00501fbd +2bd whci_nfe.exe Vcl.Controls            TControl.WndProc
+0050691b +5b3 whci_nfe.exe Vcl.Controls            TWinControl.WndProc
+0051eebc +06c whci_nfe.exe Vcl.StdCtrls            TButtonControl.WndProc
+00505f70 +02c whci_nfe.exe Vcl.Controls            TWinControl.MainWndProc
+00487a08 +014 whci_nfe.exe System.Classes          StdWndProc
+76067885 +00a USER32.dll                           DispatchMessageW
+0059979b +0f3 whci_nfe.exe Vcl.Forms               TApplication.ProcessMessage
+005997de +00a whci_nfe.exe Vcl.Forms               TApplication.HandleMessage
+00599b1d +0c9 whci_nfe.exe Vcl.Forms               TApplication.Run
+00841fb9 +091 whci_nfe.exe whci_nfe         28  +7 initialization
+748b3398 +010 kernel32.dll                         BaseThreadInitThunk
+
+thread $19d8:
+77060136 +0e ntdll.dll     NtWaitForMultipleObjects
+748b3398 +10 kernel32.dll  BaseThreadInitThunk
+
+thread $1668:
+77061f1f +0b ntdll.dll     NtWaitForWorkViaWorkerFactory
+748b3398 +10 kernel32.dll  BaseThreadInitThunk
+
+thread $16d0:
+77061f1f +0b ntdll.dll     NtWaitForWorkViaWorkerFactory
+748b3398 +10 kernel32.dll  BaseThreadInitThunk
+
+thread $1a3c:
+77061f1f +0b ntdll.dll     NtWaitForWorkViaWorkerFactory
+748b3398 +10 kernel32.dll  BaseThreadInitThunk
+
+thread $11c4:
+77061f1f +0b ntdll.dll     NtWaitForWorkViaWorkerFactory
+748b3398 +10 kernel32.dll  BaseThreadInitThunk
+
+thread $18ac:
+77061f1f +0b ntdll.dll     NtWaitForWorkViaWorkerFactory
+748b3398 +10 kernel32.dll  BaseThreadInitThunk
+
+modules:
+00400000 whci_nfe.exe   1.0.0.0            C:\Work\whci_nfe_monitor\Win32\Debug
+016b0000 DanfeRb.dll    4.0.0.0            C:\Windows\system32
+05120000 dbxfb.dll      16.0.4429.46931    C:\Program Files (x86)\Embarcadero\RAD Studio\9.0\bin
+10000000 fbclient.dll   2.5.1.26351        C:\Windows\system32
+5ec60000 Msftedit.DLL   5.41.21.2510       C:\Windows\system32
+703e0000 dwmapi.dll     6.1.7600.16385     C:\Windows\system32
+70400000 uxtheme.dll    6.1.7600.16385     C:\Windows\system32
+70740000 cryptdll.dll   6.1.7600.16385     C:\Windows\system32
+70760000 msv1_0.DLL     6.1.7601.17514     C:\Windows\SysWOW64
+71900000 wsock32.dll    6.1.7600.16385     C:\Windows\system32
+71f80000 credssp.dll    6.1.7601.17514     C:\Windows\system32
+720c0000 propsys.dll    7.0.7601.17514     C:\Windows\system32
+72230000 WINSTA.dll     6.1.7601.17514     C:\Windows\system32
+72260000 wtsapi32.dll   6.1.7601.17514     C:\Windows\system32
+72390000 msimg32.dll    6.1.7600.16385     C:\Windows\system32
+723a0000 winspool.drv   6.1.7601.17514     C:\Windows\system32
+72480000 secur32.dll    6.1.7601.17856     C:\Windows\system32
+72840000 MSVCR80.dll    8.0.50727.6195     C:\Windows\WinSxS\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.6195_none_d09154e044272b9a
+728e0000 MPR.dll        6.1.7600.16385     C:\Windows\system32
+72900000 version.dll    6.1.7600.16385     C:\Windows\system32
+72f20000 HHCtrl.OCX     6.1.7600.16385     C:\Windows\system32
+74440000 ntmarta.dll    6.1.7600.16385     C:\Windows\system32
+74470000 comctl32.dll   6.10.7601.17514    C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2
+74710000 CRYPTBASE.dll  6.1.7600.16385     C:\Windows\syswow64
+74720000 SspiCli.dll    6.1.7601.17856     C:\Windows\syswow64
+748a0000 kernel32.dll   6.1.7601.17651     C:\Windows\syswow64
+749b0000 ADVAPI32.dll   6.1.7601.17514     C:\Windows\syswow64
+74a60000 SHLWAPI.dll    6.1.7601.17514     C:\Windows\syswow64
+74ac0000 iertutil.dll   9.0.8112.16450     C:\Windows\syswow64
+74ce0000 WS2_32.dll     6.1.7601.17514     C:\Windows\syswow64
+74d20000 SETUPAPI.dll   6.1.7601.17514     C:\Windows\syswow64
+74ec0000 msvcrt.dll     7.0.7601.17744     C:\Windows\syswow64
+74f70000 LPK.dll        6.1.7600.16385     C:\Windows\syswow64
+74f80000 DEVOBJ.dll     6.1.7601.17621     C:\Windows\syswow64
+74fa0000 urlmon.dll     9.0.8112.16450     C:\Windows\syswow64
+750c0000 CFGMGR32.dll   6.1.7601.17621     C:\Windows\syswow64
+750f0000 KERNELBASE.dll 6.1.7601.17651     C:\Windows\syswow64
+75140000 MSCTF.dll      6.1.7600.16385     C:\Windows\syswow64
+75210000 IMM32.DLL      6.1.7601.17514     C:\Windows\system32
+75270000 comdlg32.dll   6.1.7601.17514     C:\Windows\syswow64
+752f0000 WLDAP32.dll    6.1.7601.17514     C:\Windows\syswow64
+75340000 GDI32.dll      6.1.7601.17514     C:\Windows\syswow64
+753d0000 shell32.dll    6.1.7601.17859     C:\Windows\syswow64
+76020000 sechost.dll    6.1.7600.16385     C:\Windows\SysWOW64
+76040000 Normaliz.dll   6.1.7600.16385     C:\Windows\syswow64
+76050000 USER32.dll     6.1.7601.17514     C:\Windows\syswow64
+76150000 oleaut32.dll   6.1.7601.17676     C:\Windows\syswow64
+761e0000 wininet.dll    9.0.8112.16450     C:\Windows\syswow64
+76300000 CLBCatQ.DLL    2001.12.8530.16385 C:\Windows\syswow64
+763f0000 ole32.dll      6.1.7601.17514     C:\Windows\syswow64
+76550000 NSI.dll        6.1.7600.16385     C:\Windows\syswow64
+765f0000 USP10.dll      1.626.7601.17561   C:\Windows\syswow64
+76690000 RPCRT4.dll     6.1.7601.17514     C:\Windows\syswow64
+77040000 ntdll.dll      6.1.7601.17725     C:\Windows\SysWOW64
+
+processes:
+0000 Idle                  0 0    0
+0004 System                0 0    0
+0148 smss.exe              0 0    0
+01d8 csrss.exe             0 0    0
+0204 wininit.exe           0 0    0
+0214 csrss.exe             1 0    0
+024c winlogon.exe          1 0    0
+0260 services.exe          0 0    0
+0270 lsass.exe             0 0    0
+027c lsm.exe               0 0    0
+02fc svchost.exe           0 0    0
+033c GbpSv.exe             0 0    0
+0368 svchost.exe           0 0    0
+03a8 svchost.exe           0 0    0
+0080 svchost.exe           0 0    0
+0168 svchost.exe           0 0    0
+0364 svchost.exe           0 0    0
+04b4 svchost.exe           0 0    0
+0544 spoolsv.exe           0 0    0
+0560 svchost.exe           0 0    0
+05ac svchost.exe           0 0    0
+05c4 TdmService.exe        0 0    0
+0648 armsvc.exe            0 0    0
+067c EmbassyServer.exe     0 0    0
+06ac fbguard.exe           0 0    0
+06c8 upeksvr.exe           1 0    0
+078c IPROSetMonitor.exe    0 0    0
+07a8 jhi_service.exe       0 0    0
+07c8 ccsvchst.exe          0 0    0
+0474 SACSrv.exe            0 0    0
+0854 sftvsa.exe            0 0    0
+0894 WaveAMService.exe     0 0    0
+08d0 WLIDSVC.EXE           0 0    0
+08f4 sftlist.exe           0 0    0
+0920 SDWinSec.exe          0 0    0
+092c WLIDSVCM.EXE          0 0    0
+0b94 CVHSVC.EXE            0 0    0
+04f0 fbserver.exe          0 0    0
+0b68 svchost.exe           0 0    0
+0cc0 taskhost.exe          1 26   24   normal
+0ce0 ccsvchst.exe          1 0    0
+0e94 SearchIndexer.exe     0 0    0
+0f08 dwm.exe               1 13   2    normal
+0f20 explorer.exe          1 1014 521  normal
+0ffc RtDCpl64.exe          1 10   14   normal
+0bfc TSVNCache.exe         1 9    5    normal
+0c24 igfxtray.exe          1 12   5    normal
+0d90 hkcmd.exe             1 9    20   normal
+0d68 igfxpers.exe          1 9    5    normal
+0ce8 TdmNotify.exe         1 22   12   normal
+048c SACMonitor.exe        1 12   9    normal
+0704 Skype.exe             1 133  109  normal       C:\Program Files (x86)\Skype\Phone
+0fd0 JVCSSrv.exe           1 60   51   normal       C:\Program Files (x86)\JEDI\JVCS\server
+0c40 TeaTimer.exe          1 62   35   idle         C:\Program Files (x86)\Spybot - Search & Destroy
+0c50 SSScheduler.exe       1 4    1    normal       C:\Program Files (x86)\McAfee Security Scan\3.0.207
+1014 IAStorIcon.exe        1 33   15   normal       C:\Program Files (x86)\Intel\Intel(R) Rapid Storage Technology
+0a40 jedivcs.exe           1 162  113  normal       C:\Program Files (x86)\JEDI\JVCS
+1090 wmpnetwk.exe          0 0    0
+0998 bds.exe               1 3571 1222 normal       C:\Program Files (x86)\Embarcadero\RAD Studio\9.0\bin
+0f80 chrome.exe            1 210  76   normal       C:\Users\Desenvolvimento_HCI\AppData\Local\Google\Chrome\Application
+13e8 chrome.exe            1 13   3    normal       C:\Users\Desenvolvimento_HCI\AppData\Local\Google\Chrome\Application
+0a18 chrome.exe            1 10   1    normal       C:\Users\Desenvolvimento_HCI\AppData\Local\Google\Chrome\Application
+0268 PrivacyIconClient.exe 1 92   40   normal
+0424 chrome.exe            1 40   32   normal       C:\Users\Desenvolvimento_HCI\AppData\Local\Google\Chrome\Application
+0dd4 LMS.exe               0 0    0
+0818 UNS.exe               0 0    0
+09a4 chrome.exe            1 110  1    below normal C:\Users\Desenvolvimento_HCI\AppData\Local\Google\Chrome\Application
+143c IAStorDataMgrSvc.exe  0 0    0
+1508 chrome.exe            1 5    1    normal       C:\Users\Desenvolvimento_HCI\AppData\Local\Google\Chrome\Application
+0adc IBManager.exe         1 654  396  normal       C:\Program Files (x86)\EMS\SQL Manager Lite for InterBase & Firebird
+10d0 splwow64.exe          1 4    3    normal
+1778 DBDesigner4.exe       1 1897 311  normal       C:\Program Files (x86)\fabFORCE
+1718 delphi32.exe          1 1365 1107 normal       C:\Program Files (x86)\Borland\Delphi6\Bin
+1130 chrome.exe            1 165  1    below normal C:\Users\Desenvolvimento_HCI\AppData\Local\Google\Chrome\Application
+106c bds.exe               1 3378 1108 normal       C:\Program Files (x86)\Embarcadero\RAD Studio\9.0\bin
+1490 notepad++.exe         1 292  234  normal       C:\Program Files (x86)\Notepad++
+1234 CVH.EXE               1 44   14   normal       C:\Program Files (x86)\Common Files\microsoft shared\Virtualization Handler
+11a4 EXCELC.EXE            1 231  100  normal       Q:\140066.ptb\Office14
+17d4 OfficeVirt.exe        1 4    1    normal       C:\Program Files (x86)\Common Files\microsoft shared\virtualization handler
+1610 OSPPSVC.EXE           0 0    0
+14ec OffSpon.EXE           1 26   34   normal       Q:\140066.ptb\Office14
+0154 OSE.EXE               0 0    0
+1b88 chrome.exe            1 120  1    below normal C:\Users\Desenvolvimento_HCI\AppData\Local\Google\Chrome\Application
+0658 chrome.exe            1 68   1    below normal C:\Users\Desenvolvimento_HCI\AppData\Local\Google\Chrome\Application
+1804 bds.exe               1 5044 1010 normal       C:\Program Files (x86)\Embarcadero\RAD Studio\9.0\bin
+1914 audiodg.exe           0 0    0
+14ac whci_nfe.exe          1 108  70   normal       C:\Work\whci_nfe_monitor\Win32\Debug
+
+hardware:
++ Computer
+  - ACPI x64-based PC
++ Disk drives
+  - ST500DM002-1BD142
++ Display adapters
+  - Intel(R) HD Graphics Family (driver 8.15.10.2418)
++ DVD/CD-ROM drives
+  - TSSTcorp DVD+-RW SH-216AB
++ Human Interface Devices
+  - Dispositivo de Entrada USB
+  - Dispositivo de Entrada USB
++ IDE ATA/ATAPI controllers
+  - Intel(R) Desktop/Workstation/Server Express Chipset SATA AHCI Controller (driver 10.1.0.1008)
++ Keyboards
+  - Dispositivo de teclado HID
++ Mice and other pointing devices
+  - Mouse compatível com HID
++ Monitors
+  - Monitor Genérico PnP
++ Network adapters
+  - Intel(R) 82579LM Gigabit Network Connection (driver 11.15.12.0)
++ Ports (COM & LPT)
+  - Intel(R) Active Management Technology - SOL (COM3) (driver 7.1.21.1154)
+  - Porta de comunicação (COM1)
++ Processors
+  - Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
+  - Intel(R) Core(TM) i7-2600 CPU @ 3.40GHz
++ Provedor de Impressão WSD
+  - Dispositivo de Impressão WSD
++ Smart Card Filter
+  - Driver de filtro de cartão inteligente
+  - Driver de filtro de cartão inteligente
+  - Driver de filtro de cartão inteligente
+  - Driver de filtro de cartão inteligente
+  - Driver de filtro de cartão inteligente
+  - Driver de filtro de cartão inteligente
++ Smart card readers
+  - Aladdin IFD Handler (driver 5.0.0.37)
+  - Aladdin IFD Handler (driver 5.0.0.37)
+  - Aladdin VR Handler (driver 5.0.0.37)
+  - Rainbow iKey Enumerator (driver 1.21.0.5)
+  - Rainbow iKey Virtual Reader (driver 1.21.0.5)
+  - Rainbow iKey Virtual Reader (driver 1.21.0.5)
++ Sound, video and game controllers
+  - Realtek High Definition Audio (driver 6.0.1.5883)
+  - Áudio do vídeo Intel(R) (driver 6.14.0.3074)
++ Storage volume shadow copies
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
+  - Cópia de sombra de volume genérica
++ System devices
+  - 2nd generation Intel(R) Core(TM) processor family DRAM Controller - 0100 (driver 9.2.0.1011)
+  - Arquivo como Driver de Volume
+  - Barramento genérico
+  - Botão de recurso fixo ACPI
+  - Botão ligar/desligar ACPI
+  - CMOS do sistema/relógio em tempo real
+  - Controlador de acesso direto à memória
+  - Controlador de High Definition Audio
+  - Controlador de interrupção programável
+  - Driver de BIOS de Gerenciamento de Sistema Microsoft
+  - Driver de enumerador da unidade virtual Microsoft
+  - Enumerador de Barramento de Composição
+  - Enumerador de Barramento de Raiz UMBus
+  - Enumerador de dispositivos de software Plug and Play
+  - Enumerador UMBus
+  - Gerenciador de volumes
+  - Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 1 - 1C10 (driver 9.2.0.1016)
+  - Intel(R) 6 Series/C200 Series Chipset Family PCI Express Root Port 3 - 1C14 (driver 9.2.0.1016)
+  - Intel(R) 6 Series/C200 Series Chipset Family SMBus Controller - 1C22 (driver 9.2.0.1011)
+  - Intel(R) 82801 PCI Bridge - 244E
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) Management Engine Interface
+  - Intel(R) Q65 Express Chipset Family LPC Interface Controller - 1C4C (driver 9.2.0.1016)
+  - IPBusEnum Root Enumerator
+  - Microsoft ACPI-Compliant System
+  - NPI8D7739 (HP LaserJet Professional P1102w)
+  - PCI bus
+  - Placa de sistema
+  - Processador de dados numéricos
+  - Recursos da placa-mãe
+  - Recursos da placa-mãe
+  - Recursos da placa-mãe
+  - Remote Desktop Device Redirector Bus
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - Timer de eventos de alta precisão
+  - Timer do sistema
++ Universal Serial Bus controllers
+  - Generic USB Hub
+  - Generic USB Hub
+  - Intel(R) 6 Series/C200 Series Chipset Family USB Enhanced Host Controller - 1C26 (driver 9.2.0.1013)
+  - Intel(R) 6 Series/C200 Series Chipset Family USB Enhanced Host Controller - 1C2D (driver 9.2.0.1013)
+  - USB Root Hub
+  - USB Root Hub
+
+disassembling:
+[...]
+007c95f0        push    $ffffffff
+007c95f2        mov     ecx, $7c9638
+007c95f7        mov     dl, 1
+007c95f9        mov     eax, [$7bd7d8]
+007c95fe        call    -$377e1b ($4517e8)     ; System.SysUtils.Exception.CreateFmt
+007c9603      > call    -$3c2038 ($4075d0)     ; System.@RaiseExcept
+007c9608        jmp     loc_7c9626
+007c960a 1676   lea     eax, [ebp-8]
+007c960d        push    eax
+007c960e        push    $ffffffff
+007c9610        mov     ecx, $7c96ac
+[...]
+
